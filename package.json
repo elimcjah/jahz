@@ -1,7 +1,7 @@
 {
-  "name": "jahz-element",
+  "name": "ElijahMcclendon",
   "version": "1.0.0",
-  "description": "May 2020 Website",
+  "description": "My impeccable Nuxt.js project",
   "author": "Elijah McClendon",
   "private": true,
   "scripts": {
@@ -10,52 +10,35 @@
     "generate": "nuxt-ts generate",
     "start": "nuxt-ts start",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "test": "ava",
     "test:unit": "cross-env TEST=unit ava ./test/specs/**/*",
     "test:e2e": "cross-env TEST=e2e ava ./test/e2e/**/*"
   },
-  "lint-staged": {
-    "*.{js,vue}": "yarn lint",
-    "*.{css,vue}": "stylelint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^0.4.0",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/pwa": "^3.0.0-0",
-    "aws-amplify": "^3.0.10",
-    "aws-amplify-vue": "^2.1.1",
-    "element-ui": "^2.4.11",
     "nuxt": "^2.0.0",
-    "vue": "^2.6.11"
+    "@nuxt/typescript-runtime": "^0.4.0",
+    "element-ui": "^2.4.11",
+    "@nuxtjs/pwa": "^3.0.0-0"
   },
   "devDependencies": {
-    "@ava/babel": "^1.0.0",
     "@nuxt/typescript-build": "^0.6.0",
     "@nuxtjs/eslint-config-typescript": "^1.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
     "@nuxtjs/stylelint-module": "^3.1.0",
+    "stylelint": "^10.1.0",
     "@vue/test-utils": "^1.0.0-beta.27",
     "ava": "^3.0.0",
-    "babel-eslint": "^10.0.1",
+    "@ava/babel": "^1.0.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "browser-env": "^3.2.5",
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.0.0",
-    "lint-staged": "^10.0.0",
-    "prettier": "^1.19.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
-    "require-extension-hooks-vue": "^2.0.0",
-    "stylelint": "^10.1.0"
+    "require-extension-hooks-vue": "^2.0.0"
   }
 }

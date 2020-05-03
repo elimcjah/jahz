@@ -1,6 +1,6 @@
-# jahz-element
+# ElijahMcclendon
 
-> May 2020 Website
+> My impeccable Nuxt.js project
 
 ## Build Setup
 

@@ -13,8 +13,6 @@
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
-    // TODO: Figure out why skipLibCheck prevents type error for NuxtApp
-    "skipLibCheck": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
