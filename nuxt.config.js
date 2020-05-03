@@ -27,7 +27,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/element-ui'],
+  plugins: [
+    '@/plugins/element-ui',
+    { src: '~/plugins/amplify.js', mode: 'client' }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
